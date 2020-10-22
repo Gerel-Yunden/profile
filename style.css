@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Benton Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benton Sans:wght@300;400&display=swap');
+
+body {
+  background-color: #c0bfaa;
+  text-align: center;
+  font-family: 'Benton Sans', sans-serif;
+}
+
+h1 {
+  color: #364864;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 15px 0;
+}
+
+h2 {
+  color: #59ced8;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+p {
+  color: #113042;
+  font-size: 14px ;
+  line-height: 14px;
+}
+
+.img-cirle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card, .card-two{
+  border: 0px solid #959595;
+  padding: 10px;
+  margin-top: 30px ;
+  background-color: #f6f9fc;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px 2px #888888;
+}
+
+/* comments in CSS */
+
+ul {
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.list-inline > li:first-child {
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #59ced8;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #2cc3d0;
+}
+
+.card-two a {
+  font-size: 20px;
+  color: #364864;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
